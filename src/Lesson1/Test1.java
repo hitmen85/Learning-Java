@@ -5,7 +5,6 @@ public class Test1 {
     public static void main(String[] args) {
         double a = 11.5;
         double b = 3;
-
         double intregul = a / b;
         double restul = a % b;
 
