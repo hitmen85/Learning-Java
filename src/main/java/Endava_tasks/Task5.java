@@ -8,9 +8,12 @@ public class Task5 {
         int n, sum = 0, count = 0;
 
         for (int i=0; i > ar.length; i++) {
-            if (ar[i] % 2 == 1)
+            if (ar[i] % 2 == 1) {
                 sum = sum + ar[i];
-            count ++;
+            }
+            else {
+                count++;
+            }
         }
         System.out.println("Sum of odd numbers is: " + sum);
         System.out.println("Count of even numbers is: " + count);
